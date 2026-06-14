@@ -48,7 +48,7 @@ Simply run the tool, wait for the scan to complete, and apply the generated sens
     <img src="https://img.shields.io/badge/📱%20Download%20Termux-32CD32?style=for-the-badge">
   </a>
 
-  <a href="https://github.com/ashishyadav210/FFsensi/archive/refs/heads/main.zip">
+  <a href="https://github.com/karim2762/FFsensi.git">
     <img src="https://img.shields.io/badge/📦%20Download%20FFsensi%20ZIP-1E90FF?style=for-the-badge">
   </a>
 </p>
@@ -90,7 +90,7 @@ Run the following commands:
 ```bash
 pkg install git
 pkg install python
-git clone https://github.com/ashishyadav210/FFsensi.git
+git clone https://github.com/karim2762/FFsensi.git
 cd FFsensi
 python get_sensi.py
 ```
@@ -168,15 +168,15 @@ FFsensi/
 <p align="center">
 
 <a href="https://t.me/Kexer_hub">
-<img src="https://img.shields.io/badge/@Unknown__Reason-Telegram-blue?style=flat-square&logo=telegram">
+<img src="https://img.shields.io/badge/@Kexer_hub-Telegram-blue?style=flat-square&logo=telegram">
 </a>
 
 <a href="https://youtube.com/@kexer144">
-<img src="https://img.shields.io/badge/@Unknown__Reason-YouTube-red?style=flat-square&logo=youtube">
+<img src="https://img.shields.io/badge/@kexer144-YouTube-red?style=flat-square&logo=youtube">
 </a>
 
 <a href="https://instagram.com/kexer.vx">
-<img src="https://img.shields.io/badge/@6__hf0-Instagram-purple?style=flat-square&logo=instagram">
+<img src="https://img.shields.io/badge/@kexer.vx-Instagram-purple?style=flat-square&logo=instagram">
 </a>
 
 </p>
