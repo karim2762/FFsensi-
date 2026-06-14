@@ -1,77 +1,78 @@
-# Kexer Extreme Sensi Engine
+<div align="center">
 
-FFsensi is an advanced Free Fire Sensitivity Generator that creates optimized sensitivity settings based on your device's real performance. Instead of using random values from YouTube or websites, FFsensi analyzes your device and runs a live benchmark to generate the most suitable sensitivity for your phone.
+# âš¡ Kexer Extreme Sensi Engine
 
-The tool evaluates CPU performance, RAM speed, refresh rate, touch response, battery status, and system load to calculate accurate sensitivity values. This helps players achieve smoother gameplay, better drag control, improved recoil management, and more consistent headshots.
+**The smarter way to set your Free Fire sensitivity.**
+Built around your phone â€” not someone else's YouTube video.
 
-Whether you're on a budget phone or a flagship, FFsensi automatically adapts to your hardware and gives you a personalized sensitivity profile.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](#)
+[![Termux](https://img.shields.io/badge/Termux-black?style=flat-square&logo=gnubash&logoColor=white)](https://termux.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
+[![Free Fire](https://img.shields.io/badge/Game-Free%20Fire-FF6A00?style=flat-square)](#)
 
-### âœ¨ Key Highlights
-
-* ðŸ“± Real Device Detection
-* âš¡ Live CPU & RAM Benchmarking
-* ðŸŽ¯ Headshot Optimized Sensitivity
-* ðŸ“Š Performance Based Calculations
-* ðŸ“„ TXT & JSON Output Files
-* ðŸš€ Quick Scan & Full Scan Modes
-* ðŸ›  Performance Boost Script Generation
-* ðŸ“² Android & Termux Compatible
-
-Simply run the tool, wait for the scan, and apply the generated values inside Free Fire.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white">
-  <img src="https://img.shields.io/badge/Free_Fire-FF6A00?style=for-the-badge&logoColor=white">
-</p>
+</div>
 
 ---
 
-## ðŸ“¥ Installation
+## What Is This?
 
-<p align="center">
-  <a href="https://f-droid.org/repo/com.termux_118.apk">
-    <img src="https://img.shields.io/badge/ðŸ“±%20Download%20Termux-32CD32?style=for-the-badge">
-  </a>
-  <a href="https://github.com/karim2762/FFsensi/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/ðŸ“¦%20Download%20FFsensi%20ZIP-1E90FF?style=for-the-badge">
-  </a>
-</p>
+Most sensitivity guides give one setting for millions of players. That doesn't work â€” because every phone is different.
+
+**Kexer Sensi Engine** scans your actual device hardware, runs a live benchmark, and generates sensitivity values calculated specifically for your phone. Budget device or flagship â€” it adjusts automatically.
 
 ---
 
-### Method 1 â€” ZIP Download
+## How It Works
 
-**Step 1:** Setup Termux
+```
+Your Phone
+    |
+    |-- CPU Speed
+    |-- RAM Performance
+    |-- Screen Refresh Rate
+    |-- Touch Response
+    |-- Battery State
+    |-- System Load
+    |
+    v
+Kexer Calculates
+    |
+    v
+Your Personalized Sensitivity File
+```
+
+Apply the output in Free Fire and feel the difference.
+
+---
+
+## What You Get
+
+| Benefit | Description |
+|---|---|
+| Smoother Aim | Sensitivity matched to your touch response |
+| Better Drag | Calculated for your screen refresh rate |
+| Less Recoil | Tuned to your CPU processing speed |
+| More Headshots | Optimized for your exact hardware tier |
+
+---
+
+## Requirements
+
+- Android phone
+- Termux (download from F-Droid, not Google Play)
+- Python 3 (installed inside Termux)
+
+---
+
+## Installation
+
+### Method 1 â€” Git Clone (Recommended)
+
+Open Termux and run:
 
 ```bash
-termux-change-repo
 pkg update && pkg upgrade -y
-pkg install python
-termux-setup-storage
-```
-
-> Allow storage permission when prompted.
-
-**Step 2:** Open the FFsensi folder
-
-```bash
-cd storage/shared/Download/FFsensi-main
-```
-
-**Step 3:** Run
-
-```bash
-python3 get_sensi.py
-```
-
----
-
-### Method 2 â€” Git Clone (Easier)
-
-```bash
 pkg install git python
 git clone https://github.com/karim2762/FFsensi.git
 cd FFsensi
@@ -80,72 +81,112 @@ python get_sensi.py
 
 ---
 
-## ðŸ“‚ File Structure
+### Method 2 â€” ZIP Download
+
+**Step 1** â€” Download Termux and FFsensi:
+
+- [Download Termux from F-Droid](https://f-droid.org/repo/com.termux_118.apk)
+- [Download FFsensi ZIP](https://github.com/karim2762/FFsensi/archive/refs/heads/main.zip)
+
+**Step 2** â€” Setup Termux:
+
+```bash
+termux-change-repo
+pkg update && pkg upgrade -y
+pkg install python
+termux-setup-storage
+```
+
+> Allow storage permission when asked.
+
+**Step 3** â€” Navigate and run:
+
+```bash
+cd storage/shared/Download/FFsensi-main
+python3 get_sensi.py
+```
+
+---
+
+### Method 3 â€” Auto Script
+
+```bash
+bash i0x.sh
+```
+
+Handles everything automatically.
+
+---
+
+## Commands
+
+| Command | What It Does |
+|---|---|
+| `python3 get_sensi.py` | Full scan + generate sensitivity |
+| `python3 get_sensi.py --q` | Quick scan mode |
+| `python3 get_sensi.py --i` | Show your device info |
+| `python3 get_sensi.py --qp` | Generate performance scripts |
+| `python3 get_sensi.py --rn 5` | Benchmark 5 times for accuracy |
+| `python3 get_sensi.py --rn 10` | Benchmark 10 times (high precision) |
+| `python3 get_sensi.py --m DEVICE_NAME` | Set device name manually |
+| `bash i0x.sh` | Auto setup and run |
+
+---
+
+## Output Files
+
+All results are saved inside the `o0x/` folder:
+
+| File | Contains |
+|---|---|
+| `x_device.txt` | Your sensitivity values â€” apply these in Free Fire |
+| `x_device.json` | Full device scan report |
+| `b0x.sh` | Performance boost script |
+| `g0x.sh` | Game optimization script |
+
+---
+
+## Project Structure
 
 ```
 FFsensi/
-â”‚
-â”œâ”€â”€ README.md
-â”œâ”€â”€ get_sensi.py              â† Main launcher
-â”œâ”€â”€ i0x.sh                    â† Auto install & run script
-â”‚
-â”œâ”€â”€ x9k/
-â”‚   â”œâ”€â”€ m7q.py                â† Device Detection Engine
-â”‚   â”œâ”€â”€ p4r.py                â† Benchmark & Performance Engine
-â”‚   â”œâ”€â”€ s2k.py                â† Sensitivity Generator
-â”‚   â”œâ”€â”€ t8n.py                â† Boost Script Generator
-â”‚   â”œâ”€â”€ v1u.py                â† Terminal UI & Colors
-â”‚   â””â”€â”€ d8f.json              â† Device Tier Database
-â”‚
-â””â”€â”€ o0x/
-    â”œâ”€â”€ x_device.txt          â† Generated Sensitivity
-    â”œâ”€â”€ x_device.json         â† Detailed Scan Report
-    â”œâ”€â”€ b0x.sh                â† Performance Boost Script
-    â””â”€â”€ g0x.sh                â† Game Optimization Script
+|
+|-- get_sensi.py          Main launcher
+|-- i0x.sh                Auto setup script
+|
+|-- x9k/                  Engine modules
+|   |-- m7q.py            Device Detection
+|   |-- p4r.py            Benchmark & Performance
+|   |-- s2k.py            Sensitivity Calculator
+|   |-- t8n.py            Boost Script Generator
+|   |-- v1u.py            Terminal UI
+|   `-- d8f.json          Device Database
+|
+`-- o0x/                  Your output files
+    |-- x_device.txt      Generated sensitivity
+    |-- x_device.json     Scan report
+    |-- b0x.sh            Boost script
+    `-- g0x.sh            Game optimizer
 ```
 
 ---
 
-## ðŸš€ Available Commands
+## Community
 
-| Command | Description |
-|---|---|
-| `python3 get_sensi.py` | Full Device Scan & Generate Sensitivity |
-| `python3 get_sensi.py --q` | Quick Scan Mode |
-| `python3 get_sensi.py --i` | Show Device Information |
-| `python3 get_sensi.py --qp` | Generate Performance Scripts |
-| `python3 get_sensi.py --rn 5` | Run Benchmark 5 Times |
-| `python3 get_sensi.py --rn 10` | Run Benchmark 10 Times |
-| `python3 get_sensi.py --m DEVICE_NAME` | Manual Device Name |
-| `bash i0x.sh` | Auto Setup & Run FFsensi |
+[![Telegram](https://img.shields.io/badge/Telegram-@Kexer__hub-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Kexer_hub)
+[![YouTube](https://img.shields.io/badge/YouTube-@kexer144-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@kexer144)
+[![Instagram](https://img.shields.io/badge/Instagram-@kexer.vx-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/kexer.vx)
+
+- **Telegram** â€” Updates, support, and community chat
+- **YouTube** â€” Step-by-step tutorials and setup guides
+- **Instagram** â€” Previews and new feature announcements
 
 ---
 
-## ðŸŒ Follow Us
+<div align="center">
 
-<p align="center">
-  <a href="https://t.me/Kexer_hub">
-    <img src="https://img.shields.io/badge/@Kexer__hub-Telegram-blue?style=flat-square&logo=telegram">
-  </a>
-  <a href="https://youtube.com/@kexer144">
-    <img src="https://img.shields.io/badge/@kexer144-YouTube-red?style=flat-square&logo=youtube">
-  </a>
-  <a href="https://instagram.com/kexer.vx">
-    <img src="https://img.shields.io/badge/@kexer.vx-Instagram-purple?style=flat-square&logo=instagram">
-  </a>
-</p>
+Made with love for the Free Fire community
 
-### ðŸ“¢ Stay Connected
+If this helped you, leave a star on the repo â€” it keeps the project going.
 
-* ðŸ’¬ Telegram â€” Community updates & support
-* ðŸŽ¥ YouTube â€” Tutorial videos & guides
-* ðŸ“¸ Instagram â€” Project updates & sneak peeks
-* ðŸ”¥ Free Fire tools & resources
-
-> Follow all platforms to get the latest updates, tutorials, and new releases.
-
----
-
-<p align="center">
-  <b>Made with â¤ï¸ for the Free Fire Community</b>
-</p>
+</div>
