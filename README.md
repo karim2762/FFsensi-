@@ -106,6 +106,11 @@ python3 get_sensi.py
 ### Method 3 Auto Script
 
 ```bash
+termux-change-repo
+pkg update && pkg upgrade -y
+pkg install python
+termux-setup-storage
+
 bash i0x.sh
 ```
 
