@@ -3,7 +3,7 @@
 # Kexer Extreme Sensi Engine
 
 **The smarter way to set your Free Fire sensitivity.**
-Built around your phone â€” not someone else's YouTube video.
+Built around your phone not someone else's YouTube video.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](#)
@@ -57,14 +57,14 @@ Apply the output inside Free Fire settings and feel the difference.
 ## Requirements
 
 - Android phone
-- Termux app â€” download from F-Droid, not Google Play
-- Python 3 â€” installed inside Termux
+- Termux app download from F-Droid, not Google Play
+- Python3 installed inside Termux
 
 ---
 
 ## Installation
 
-### Method 1 â€” Git Clone (Easiest)
+### Method 1 Git Clone (Easiest)
 
 Open Termux and paste this:
 
@@ -78,7 +78,7 @@ python get_sensi.py
 
 ---
 
-### Method 2 â€” ZIP Download
+### Method 2 ZIP Download
 
 Download both files first:
 
@@ -103,7 +103,7 @@ python3 get_sensi.py
 
 ---
 
-### Method 3 â€” Auto Script
+### Method 3 Auto Script
 
 ```bash
 bash i0x.sh
@@ -171,13 +171,13 @@ FFsensi/
 [![YouTube](https://img.shields.io/badge/YouTube-@kexer144-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@kexer144)
 [![Instagram](https://img.shields.io/badge/Instagram-@kexer.vx-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/kexer.vx)
 
-- **Telegram** â€” Updates, support, and community chat
-- **YouTube** â€” Tutorials and setup guides
-- **Instagram** â€” Previews and new feature announcements
+- **Telegram**  Updates, support, and community chat
+- **YouTube** Tutorials and setup guides
+- **Instagram** Previews and new feature announcements
 
 ---
 
 <div align="center">
 Made with love for the Free Fire community<br>
-If this helped you, leave a star on the repo â€” it keeps the project going.
+If this helped you, leave a star on the repo it keeps the project going.
 </div>
