@@ -227,7 +227,7 @@ FFsensi/
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Unknown__Reason-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Kexer_hub)
+[![Telegram](https://img.shields.io/badge/Telegram-@Kexer_hub-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Kexer_hub)
 [![YouTube](https://img.shields.io/badge/YouTube-@kexer144-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kexer144)
 [![Instagram](https://img.shields.io/badge/Instagram-@kexer.vx-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kexer.vx)
 
