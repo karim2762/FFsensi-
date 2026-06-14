@@ -48,7 +48,7 @@ Simply run the tool, wait for the scan to complete, and apply the generated sens
     <img src="https://img.shields.io/badge/📱%20Download%20Termux-32CD32?style=for-the-badge">
   </a>
 
-  <a href="https://github.com/karim2762/FFsensi.git">
+  <a href="https://github.com/karim2762/FFsensi/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/badge/📦%20Download%20FFsensi%20ZIP-1E90FF?style=for-the-badge">
   </a>
 </p>
